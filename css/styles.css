@@ -13,6 +13,9 @@
     --accent-background-color: #F5F4FA;
     --button-color: var(--link-color);
 
+    /* borders */
+    --header-border: #ECECEC;
+
     /* fonts */
     --main-font: 'Roboto', sans-serif;
     --logo-font: 'Raleway', sans-serif;
@@ -38,6 +41,8 @@ html {
 
 .header {
     font-weight: 500;
+    border: var(--header-border);
+    border-width: 1px;
 }
 
 /* logo */
